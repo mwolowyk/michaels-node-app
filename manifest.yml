@@ -1,4 +1,8 @@
 ---
 applications:
 - name: michaels-node-app
-
+  buildpacks:
+    - https://github.com/cloudfoundry/nodejs-buildpack#v1.6.32
+  command: node app.js
+  routes:
+    - route: michaels-node.app.springernature.app

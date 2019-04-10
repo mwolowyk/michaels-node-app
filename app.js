@@ -7,7 +7,7 @@ http.createServer(function (request, response) {
    // Content Type: text/plain
    response.writeHead(200, {'Content-Type': 'text/plain'});
    
-   response.end('Hello From NodeJS App\n');
+   response.end('This is the test NodeJS App\n');
 }).listen(port);
 
 // Console will print the message
