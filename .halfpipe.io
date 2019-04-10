@@ -15,3 +15,5 @@ tasks:
   space: dev
   manifest: manifest.yml
   deploy_artifact: .
+  vars:
+    MY_SECRET: ((michaels-apps.test_key))
